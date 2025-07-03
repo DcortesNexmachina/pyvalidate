@@ -4,7 +4,8 @@ Only needs to import:
 -> import inspect
 -> import sys
 Example of Usage:
-'''
+
+```
 @validate(int, float, list, tuple)
 def process(a, b):
     return f"Used vars: {a} y {b}"
@@ -34,4 +35,4 @@ try:
     print(process(big_dict, None))
 except TypeError as e:
     print(e)
-'''
+```
