@@ -1,4 +1,4 @@
-def validate(*tipos_esperados):
+def validate_data(*tipos_esperados):
     def decorador(func):
         def wrapper(*args, **kwargs):
             sig = inspect.signature(func)
