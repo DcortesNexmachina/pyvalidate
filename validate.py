@@ -1,6 +1,4 @@
 def validate(*tipos_esperados):
-    import inspect
-    import sys
     def decorador(func):
         def wrapper(*args, **kwargs):
             sig = inspect.signature(func)
