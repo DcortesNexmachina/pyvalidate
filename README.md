@@ -6,7 +6,7 @@ Only needs to import:
 Example of Usage:
 
 ```
-@validate(int, float, list, tuple)
+@validate_data(int, float, list, tuple)
 def process(a, b):
     return f"Used vars: {a} y {b}"
 
