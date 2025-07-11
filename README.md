@@ -1,8 +1,10 @@
 # pyvalidate
 Pythonic decorator for datatype validation.
 Only needs to import:
--> import inspect
--> import sys
+```
+import inspect
+import sys
+```
 Example of Usage:
 
 ```
